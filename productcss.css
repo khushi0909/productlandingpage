@@ -1,0 +1,169 @@
+*{
+
+    max-width: 100%;
+    box-sizing:border-box;
+    
+    }
+    #header{
+ 
+    display:flex;
+    position: sticky;
+    top:0;
+    background-color: white;
+ 
+ }
+ #header #nav-bar{
+       width: 100%;
+       display: flex;
+       align-items: center;
+       margin-left:10px;
+ 
+ }
+ 
+ #header-img{
+ 
+ height:90px;
+ width:140px;
+ }
+ 
+ 
+ 
+ #nav-bar .nav-link{
+ text-decoration:none;
+ padding:40px;
+ font-size: 25px;
+ font-weight: bold;
+ 
+ }
+ 
+ #nav-bar a{
+ 
+ color: black;
+ 
+ }
+ a:hover{
+ 
+    transform:scale(2);
+ }
+ picture{
+ 
+    padding:10px;
+ }
+ .howitworks{
+    background-image: url("https://res.cloudinary.com/breather-com/image/upload/q_auto,f_auto/v1497292166/HomePage/how-it-works-bg.jpg");
+    background-size: cover;
+ background-position: 100% 100%;
+ padding:60px;}
+ .section1, .section2,.section3
+          {
+ 
+ 
+          }
+ .seperator{
+ 
+          background-color:lightblue ;
+          width: 4rem;
+          height: 2px;;
+ }
+ .h{
+ 
+    font-size: 20px;
+    font-weight:540;
+ }
+ 
+ .videocont{
+                text-align: center;
+                background-color: rgb(188,188,189);
+                padding:10px;
+ }
+    
+ .featuresec{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    }
+   .feature1{
+    flex:30%;
+    text-align: center;
+ 
+   }    
+   .feature2{
+ 
+    flex: 30%;
+    text-align: center;
+ 
+   }
+   .feature3{
+    flex: 30%;
+    text-align: center;
+ 
+ 
+   }
+   .feature4{
+    flex: 30%;
+    text-align: center;
+ 
+ 
+   }
+   .feature5{
+    flex: 30%;
+    text-align: center;
+ 
+ 
+   }
+   .feature6{
+    flex: 30%;
+    text-align: center;
+   }
+   
+ 
+   .bookshelfimage .image{
+ 
+          width: 100%;
+    
+   }
+    .featureh{
+    display: flex;
+    justify-content: center;    
+    font-size: 40px;       
+ 
+   }
+   .form{  
+ 
+                background-color:rgba(184, 127, 80, 0.5);
+                text-align: center;
+                /* padding: 1px;; */
+   }
+   .form p{
+          font-weight: bolder;
+          background-color: darkslateblue;
+          color:white;
+          font-size: 35px;
+   }
+ 
+ .form div{
+          background-color: rgb(109, 104, 143);
+ 
+ font-size: 25px;
+ color: white;
+   }
+   button ,.contactsec .para{
+ 
+ font-size: 25px;;
+   }
+   input{
+ 
+    height: 40px;
+    width:290px;
+   }
+   .contactsec{
+ 
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    line-height: 2rem;
+    align-items: center;
+    padding:10px;
+   }
+  
